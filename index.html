@@ -38,7 +38,9 @@
     <main class="main-container">
       <article class="fish-list">
         <section class="fish">
-          <!-- Start of cards -->
+          <!-- Start of fish cards -->
+
+          <!-- Card Fish One -->
           <div class="fish-card">
             <img
               class="card-picture"
@@ -48,14 +50,20 @@
             />
             <div class="fish-container">
               <h4><b>Name: Betty</b></h4>
+              <div>
+                <button id="button--betty">Details</button>
+            </div>
+            <dialog class="dialog--fish" id="details--betty">
               <p>Length: 2 feet</p>
               <p>Species: Sea Turtle</p>
               <p>Food: Seaweed</p>
               <p>Harvest Location: Bahamas</p>
+              <button class="button--close" id="close-betty">Close Dialog</button>
+              </dialog>
             </div>
           </div>
 
-          <!-- card two -->
+          <!-- Fish Card Two -->
           <div class="fish-card">
             <img
               class="card-picture"
@@ -65,10 +73,17 @@
             />
             <div class="fish-container">
               <h4><b>Name: Jelly</b></h4>
+              <div>
+                <button id="button--jelly">Details</button>
+            </div>
+
+            <dialog class="dialog--fish" id="details--jelly">
               <p>Length: 1 feet</p>
               <p>Species: Jelly fish</p>
               <p>Food: People</p>
               <p>Harvest Location: Caribbean</p>
+              <button class="button--close" id="close-jelly">Close Dialog</button>
+              </dialog>
             </div>
           </div>
 
@@ -82,10 +97,16 @@
             />
             <div class="fish-container">
               <h4><b>Name: Patrick</b></h4>
+              <div>
+                <button id="button--patrick">Details</button>
+            </div>
+            <dialog class="dialog--fish" id="details--patrick">
               <p>Length: 2 inches</p>
               <p>Species: Brown Puffin</p>
               <p>Food: Children</p>
               <p>Harvest Location: New Zealand</p>
+              <button class="button--close" id="close-patrick">Close Dialog</button>
+            </dialog>
             </div>
           </div>
           <!-- Card Four -->
@@ -98,10 +119,16 @@
         />
         <div class="fish-container">
           <h4><b>Name: Willy</b></h4>
+          <div>
+            <button id="button--willy">Details</button>
+        </div>
+        <dialog class="dialog--fish" id="details--willy">
           <p>Length: 79 Feet</p>
           <p>Species: Blue Whale</p>
           <p>Food: Krill and Copepods</p>
           <p>Harvest Location: Arctic, Tropical, Subtropical, and Temperate seas</p>
+          <button class="button--close" id="close-willy">Close Dialog</button>
+        </dialog>
         </div>
       </div>
       <!-- Card Five -->
@@ -114,10 +141,16 @@
         />
         <div class="fish-container">
           <h4><b>Name: Ozzie</b></h4>
+          <div>
+            <button id="button--ozzie">Details</button>
+        </div>
+        <dialog class="dialog--fish" id="details--ozzie">
           <p>Length: 2 Feet</p>
           <p>Species: Brown Octopus</p>
           <p>Food: Krill and Copepods</p>
           <p>Harvest Location: Pacific</p>
+          <button class="button--close" id="close-ozzie">Close Dialog</button>
+        </dialog>
         </div>
       </div>
 
@@ -131,10 +164,16 @@
         />
         <div class="fish-container">
           <h4><b>Name: Thurman</b></h4>
+          <div>
+            <button id="button--thurman">Details</button>
+        </div>
+        <dialog class="dialog--fish" id="details--thurman">
           <p>Length: 2.8 inches</p>
           <p>Species: Blue Siamese Fighting Fish</p>
           <p>Food: Fish flakes or pellets</p>
           <p>Harvest Location: Asia, the shallow waters of rice paddies, ponds, or slow-moving streams.</p>
+          <button class="button--close" id="close-thurman">Close Dialog</button>
+        </dialog>
         </div>
       </div>
       </article>
@@ -155,7 +194,8 @@
           <div class="tip-container">
             <h4><b>Fish Harvesting Techniques</b></h4>
             <ul>
-              <li>Name: Harpoon</li>
+            <dialog class="dialog--tip" id="details--harpoon">
+                <li>Name: Harpoon</li>
               <li>
                 Where Used/Used For: Waters where swordfish and bluefish tuna
                 are found
@@ -170,7 +210,12 @@
                 leaving the immature fishes behind and also the fishes might get
                 an advantage since they’re fished in the night
               </li>
+              <button class="button--close" id="close-harpoon">Close Dialog</button>
+            </dialog>
             </ul>
+            <div>
+                <button id="button--harpoon">Details</button>
+            </div>
           </div>
         </div>
         <!-- Tip Card Two -->
@@ -184,7 +229,8 @@
           <div class="tip-container">
             <h4><b>Fish Harvesting Techniques</b></h4>
             <ul>
-              <li>Name: Drive Caught</li>
+            <dialog class="dialog--tip" id="details--dive-caught">
+                <li>Name: Dive Caught</li>
               <li>
                 Where Used/Used For: Around reef or deep waters possible for
                 humans; lobsters, abalone, seaweed, sponges, reef dwelling
@@ -200,11 +246,17 @@
                 fishes habitat; humans can destroy some habitats without knowing
                 it
               </li>
+              <button class="button--close" id="close-dive-caught">Close</button>
+
+            </dialog>
             </ul>
+            <div>
+                <button id="button--dive-caught">Details</button>
+            </div>
           </div>
         </div>
 
-        <!-- Tip Card Two -->
+        <!-- Tip Card Three -->
         <div class="tip-card">
             <img
               class="tip-card-picture"
@@ -214,6 +266,7 @@
             />
             <div class="tip-container">
               <h4><b>Tank Cleaning Equipment</b></h4>
+            <dialog class="dialog--tip" id="details--cleaning">
               <ul>
                 <li>Algae scraper/pad</li>
                 <li>Razor blade (plastic blade for acrylic tanks)</li>
@@ -227,8 +280,15 @@
                 <li>Paper towels</li>
                 <li>Chlorine remover (aquarium water conditioner)</li>
               </ul>
+              <button class="button--close" id="close-cleaning">Close</button>
+
+            </dialog>
+            <div>
+                <button id="button--cleaning">Details</button>
+            </div>
             </div>
           </div>
     </main>
+    <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>
