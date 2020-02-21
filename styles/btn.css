@@ -1,0 +1,75 @@
+#button--betty,
+#button--jelly,
+#button--patrick,
+#button--willy,
+#button--ozzie,
+#button--thurman {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 55px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#button--betty:hover,
+#button--jelly:hover,
+#button--willy:hover,
+#button--patrick:hover,
+#button--ozzie:hover,
+#button--thurman:hover {
+  background-color: #555555;
+  color: white;
+}
+
+#button--harpoon,
+#button--dive-caught,
+#button--cleaning {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 75px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#button--harpoon:hover,
+#button--dive-caught:hover,
+#button--cleaning:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.button--close {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 55px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button--close:hover {
+  background-color: #555555;
+  color: white;
+}
