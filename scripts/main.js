@@ -3,11 +3,14 @@
 import initializeDialogDetailButtonEvents from './dialog.js';
 import initializeTipDetailButtonEvents from './tip.js';
 import { useFish } from './FishDataProvider.js'
+import FishList from './FishList.js';
 
 
 
 
 const arrayOfAllTheFishObjects = useFish()
+
+FishList()
 
 for (const currentFishObj of arrayOfAllTheFishObjects) {
     console.log(currentFishObj)

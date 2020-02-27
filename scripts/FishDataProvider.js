@@ -1,45 +1,51 @@
 const fishCollection = [
     {
         name: "Betty",
-        Species: "Sea Turtle",
-        Length: "two feet",
-        food: "Seaweed",
-        HarvestLocation: "Bahamas"
+        species: "Sea Turtle",
+        length: "two feet",
+        food: ["Seaweed"],
+        harvestLocation: "Bahamas",
+        image: "./images/photo-1534527431390-5d41c7e60c1f.jpeg"
     },
     {
         name: "Jelly",
-        Species: "Sea Turtle",
-        Length: "one feet",
-        food: "People",
-        HarvestLocation: "Caribbean"
+        species: "Sea Turtle",
+        length: "one feet",
+        food: ["People"],
+        harvestLocation: "Caribbean",
+        image: "./images/jelly.jpg"
     },
     {
         name: "Patrick",
-        Species: "Brown Puffin",
-        Length: "two inches",
-        food: "Children",
-        HarvestLocation: "New Zealand"
+        species: "Brown Puffin",
+        length: "two inches",
+        food: ["Children"],
+        harvestLocation: "New Zealand",
+        image: "./images/bown-puffin-fish.jpg"
     },
     {
         name: "Willy",
-        Species: "Blue Whale",
-        Length: "96 feet",
+        species: "Blue Whale",
+        length: "96 feet",
         food: ["Krill", "Copepod"],
-        HarvestLocation: ["Arctic", "Tropical", "Subtropical", "Temperate seas"]
+        harvestLocation: ["Arctic", "Tropical", "Subtropical", "Temperate seas"],
+        image: "./images/free-willy.jpg"
     },
     {
         name: "Ozzie",
-        Species: "Brown Octopus",
-        Length: "two feet",
+        species: "Brown Octopus",
+        length: "two feet",
         food: ["Krill", "Copepod"],
-        HarvestLocation: "Pacific"
+        harvestLocation: "Pacific",
+        image: "./images/octopus.jpg"
     },
     {
         name: "Thurman",
-        Species: "Blue Siamese Fighting Fish",
-        Length: "two inches",
-        food: "Children",
-        HarvestLocation: "Asia, the shallow waters of rice paddies, ponds, or slow-moving streams."
+        species: "Blue Siamese Fighting Fish",
+        length: "two inches",
+        food: ["Children"],
+        harvestLocation: "Asia, the shallow waters of rice paddies, ponds, or slow-moving streams.",
+        image: "./images/blue-siamese-fighting-fish.jpg"
     }
 ]
 
