@@ -42,3 +42,11 @@ const fishCollection = [
         HarvestLocation: "Asia, the shallow waters of rice paddies, ponds, or slow-moving streams."
     }
 ]
+
+
+export const useFish = () => {
+    //returns the array
+    //Array method slice() returns a copy of the data but not the actual database
+    return fishCollection.slice()
+
+}
