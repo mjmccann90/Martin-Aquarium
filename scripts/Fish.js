@@ -4,7 +4,7 @@
 const Fish = (fish) => {
     return `
     
-        <div class="fish">
+         
             <div class="fish-card">
                 <img class="card-picture"
                 src="${fish.image}"
@@ -26,7 +26,7 @@ const Fish = (fish) => {
                 <button class="button--close">Close Dialog</button>
             </dialog>
         </div>
-        </div>
+    
     `
 }
 
