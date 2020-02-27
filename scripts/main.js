@@ -13,7 +13,6 @@ const arrayOfAllTheFishObjects = useFish()
 FishList()
 
 for (const currentFishObj of arrayOfAllTheFishObjects) {
-    console.log(currentFishObj)
 }
 
 
