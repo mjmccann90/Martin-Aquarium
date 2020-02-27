@@ -1,9 +1,9 @@
-#button--betty,
-#button--jelly,
-#button--patrick,
-#button--willy,
-#button--ozzie,
-#button--thurman {
+#button--Betty,
+#button--Jelly,
+#button--Patrick,
+#button--Willy,
+#button--Ozzie,
+#button--Thurman {
   background-color: white;
   color: black;
   border: 2px solid black;
@@ -18,12 +18,12 @@
   transition-duration: 0.4s;
   cursor: pointer;
 }
-#button--betty:hover,
-#button--jelly:hover,
-#button--willy:hover,
-#button--patrick:hover,
-#button--ozzie:hover,
-#button--thurman:hover {
+#button--Betty:hover,
+#button--Jelly:hover,
+#button--Willy:hover,
+#button--Patrick:hover,
+#button--Ozzie:hover,
+#button--Thurman:hover {
   background-color: #555555;
   color: white;
 }

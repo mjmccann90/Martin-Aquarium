@@ -17,49 +17,49 @@ const initializeDialogDetailButtonEvents = () => {
     // You will be writing code below this line
 
     // Show fish details when the button is clicked
-    document.querySelector("#button--betty").addEventListener(
+    document.querySelector("#button--Betty").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--betty")
+            const theDialog = document.querySelector("#details--Betty")
             theDialog.showModal()
         }
     ),
 
-        document.querySelector("#button--jelly").addEventListener(
+        document.querySelector("#button--Jelly").addEventListener(
             "click",
             theClickEvent => {
-                const theDialog = document.querySelector("#details--jelly")
+                const theDialog = document.querySelector("#details--Jelly")
                 theDialog.showModal()
             }
         ),
 
-        document.querySelector("#button--patrick").addEventListener(
+        document.querySelector("#button--Patrick").addEventListener(
             "click",
             theClickEvent => {
-                const theDialog = document.querySelector("#details--patrick")
+                const theDialog = document.querySelector("#details--Patrick")
                 theDialog.showModal()
             }
         ),
 
-        document.querySelector("#button--willy").addEventListener(
+        document.querySelector("#button--Willy").addEventListener(
             "click",
             theClickEvent => {
-                const theDialog = document.querySelector("#details--willy")
+                const theDialog = document.querySelector("#details--Willy")
                 theDialog.showModal()
             }
         ),
 
-        document.querySelector("#button--ozzie").addEventListener(
+        document.querySelector("#button--Ozzie").addEventListener(
             "click",
             theClickEvent => {
-                const theDialog = document.querySelector("#details--ozzie")
+                const theDialog = document.querySelector("#details--Ozzie")
                 theDialog.showModal()
             }
         ),
-        document.querySelector("#button--thurman").addEventListener(
+        document.querySelector("#button--Thurman").addEventListener(
             "click",
             theClickEvent => {
-                const theDialog = document.querySelector("#details--thurman")
+                const theDialog = document.querySelector("#details--Thurman")
                 theDialog.showModal()
             }
         )
