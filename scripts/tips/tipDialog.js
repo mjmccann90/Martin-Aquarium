@@ -30,13 +30,6 @@ const initializeTipDetailButtonEvents = () => {
                 const theDialog = document.querySelector("#details--Dive-Caught")
                 theDialog.showModal()
             }
-        ),
-        document.querySelector("#button--Cleaning").addEventListener(
-            "click",
-            theClickEvent => {
-                const theDialog = document.querySelector("#details--Cleaning")
-                theDialog.showModal()
-            }
         )
 
 }

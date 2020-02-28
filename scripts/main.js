@@ -1,10 +1,10 @@
-import initializeDialogDetailButtonEvents from './dialog.js';
-import initializeTipDetailButtonEvents from './tipDialog.js';
-import { useFish } from './FishDataProvider.js'
-import FishList from './FishList.js';
+import initializeDialogDetailButtonEvents from './fish/dialog.js';
+import initializeTipDetailButtonEvents from './tips/tipDialog.js';
+import { useFish } from './fish/FishDataProvider.js'
+import FishList from './fish/FishList.js';
 
-import { useTip } from './TipDataProvider.js'
-import TipList from './TipList.js';
+import { useTip } from './tips/TipDataProvider.js'
+import TipList from './tips/TipList.js';
 
 
 
