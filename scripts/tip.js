@@ -1,44 +1,40 @@
-const initializeTipDetailButtonEvents = () => {
-    // CAN'T TOUCH THIS - START
-    const allCloseButtons = document.querySelectorAll(".button--close")
-
-    for (const btn of allCloseButtons) {
-        btn.addEventListener(
-            "click",
-            theEvent => {
-                const dialogElement = theEvent.target.parentNode
-                dialogElement.close()
-            }
-        )
-    }
-    // CAN'T TOUCH THIS - END
+/**
+ *  Tip which renders individual fish objects as HTML
+ */
+const Tip = (tip) => {
+    return `
+    <div class="tip-card"> 
+          <img
+            class="tip-card-picture"
+            src="${tip.image}"
+            alt="Avatar"
+            style="width:100%"
+          />
 
 
-    // You will be writing code below this line
-
-    // Show tip details when the button is clicked
-    document.querySelector("#button--harpoon").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--harpoon")
-            theDialog.showModal()
-        }
-    ),
-        document.querySelector("#button--dive-caught").addEventListener(
-            "click",
-            theClickEvent => {
-                const theDialog = document.querySelector("#details--dive-caught")
-                theDialog.showModal()
-            }
-        ),
-        document.querySelector("#button--cleaning").addEventListener(
-            "click",
-            theClickEvent => {
-                const theDialog = document.querySelector("#details--cleaning")
-                theDialog.showModal()
-            }
-        )
-
+          <div class="tip-container">
+            <h4><b>${tip.title}</b></h4>
+            <ul>
+            <dialog class="dialog--tip" id="details--${tip.name}">
+                <li>Name: ${tip.name}</li>
+              <li>
+              Where Used/Used For: ${tip.whereUsedFor}
+              </li>
+              <li>
+                Economic Benefits/Pitfalls: ${tip.economicBenefitsPitfalls}
+              </li>
+              <li>
+                Environmental Benefits/Pitfalls: ${tip.environmentalBenefitsPitfalls}
+              </li>
+              <button class="button--close" >Close Dialog</button>
+            </dialog>
+            </ul>
+            <div>
+                <button id="button--${tip.name}">Details</button>
+            </div>
+          </div>
+        </div> 
+    `
 }
 
-export default initializeTipDetailButtonEvents
+export default Tip

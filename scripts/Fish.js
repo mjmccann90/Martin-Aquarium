@@ -3,8 +3,7 @@
  */
 const Fish = (fish) => {
     return `
-    
-         
+    <section class="fish">
             <div class="fish-card">
                 <img class="card-picture"
                 src="${fish.image}"
@@ -13,7 +12,7 @@ const Fish = (fish) => {
                 />
 
             <div class="fish-container">
-                <div class="fish__name"><h4><b>${fish.name}</b></h4>
+            <div class="fish__name"><h4><b>${fish.name}</b></h4>
                 <button id="button--${fish.name}">Details</button>
             </div>
 
@@ -26,7 +25,7 @@ const Fish = (fish) => {
                 <button class="button--close">Close Dialog</button>
             </dialog>
         </div>
-    
+    </section>
     `
 }
 

@@ -28,9 +28,9 @@
   color: white;
 }
 
-#button--harpoon,
-#button--dive-caught,
-#button--cleaning {
+#button--Harpoon,
+#button--Dive-Caught,
+#button--Cleaning {
   background-color: white;
   color: black;
   border: 2px solid black;
@@ -46,9 +46,9 @@
   cursor: pointer;
 }
 
-#button--harpoon:hover,
-#button--dive-caught:hover,
-#button--cleaning:hover {
+#button--Harpoon:hover,
+#button--Dive-caught:hover,
+#button--Cleaning:hover {
   background-color: #555555;
   color: white;
 }
