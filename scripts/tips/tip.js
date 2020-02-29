@@ -2,7 +2,7 @@
  *  Tip which renders individual fish objects as HTML
  */
 const Tip = (tip) => {
-    return `
+  return `
     <div class="tip-card"> 
           <img
             class="tip-card-picture"
