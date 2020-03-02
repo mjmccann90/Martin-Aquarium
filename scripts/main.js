@@ -1,6 +1,4 @@
-import initializeDialogDetailButtonEvents from './fish/dialog.js';
-import initializeTipDetailButtonEvents from './tips/tipDialog.js';
-import initializeLocationDetailButtonEvents from './locations/LocationDialog.js';
+import initializeDialogDetailButtonEvents from './dialog.js';
 
 import { useFish } from './fish/FishDataProvider.js'
 import FishList from './fish/FishList.js';
@@ -8,8 +6,8 @@ import FishList from './fish/FishList.js';
 import { useTip } from './tips/TipDataProvider.js'
 import TipList from './tips/TipList.js';
 
-import { useLocation } from './locations/LocationDataProvider.js'
-import LocationList from './locations/LocationList.js';
+// import { useLocation } from './locations/LocationDataProvider.js'
+// import LocationList from './locations/LocationList.js';
 
 
 
@@ -31,12 +29,12 @@ for (const currentTipObj of arrayOfAllTheTipObjects) {
 }
 
 
-const arrayOfAllTheLocationObjects = useLocation()
+// const arrayOfAllTheLocationObjects = useLocation()
 
-LocationList()
+// LocationList()
 
-for (const currentLocationObj of arrayOfAllTheLocationObjects) {
-}
+// for (const currentLocationObj of arrayOfAllTheLocationObjects) {
+// }
 
 
 
@@ -48,7 +46,5 @@ for (const currentLocationObj of arrayOfAllTheLocationObjects) {
 
 useFish();
 useTip();
-useLocation();
+// useLocation();
 initializeDialogDetailButtonEvents();
-initializeTipDetailButtonEvents();
-initializeLocationDetailButtonEvents();

@@ -13,12 +13,12 @@ const Fish = (fish) => {
 
             <div class="fish-container">
             <div class="fish__name"><h4><b>${fish.name}</b></h4>
-                <button id="button--${fish.name}">Details</button>
             </div>
-
+            
+            <button id="button--${fish.name}">Details</button>
             <dialog class="dialog--fish" id="details--${fish.name}">
                 <div>Species: ${fish.species}</div>
-                <div>Location: ${fish.location}</div>
+                <div>Location: ${fish.harvestLocation}</div>
                 <div>Length: ${fish.length}</div>
                 <div>Food: ${fish.food.join(",")}</div>
 
