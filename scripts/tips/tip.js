@@ -2,7 +2,7 @@
  *  Tip which renders individual fish objects as HTML
  */
 const Tip = (tip) => {
-    return `
+  return `
     <div class="tip-card"> 
           <img
             class="tip-card-picture"
@@ -14,24 +14,17 @@ const Tip = (tip) => {
 
           <div class="tip-container">
             <h4><b>${tip.title}</b></h4>
-            <ul>
+
+            <button id="button--${tip.name}">Details</button>
             <dialog class="dialog--tip" id="details--${tip.name}">
-                <li>Name: ${tip.name}</li>
-              <li>
-              Where Used/Used For: ${tip.whereUsedFor}
-              </li>
-              <li>
-                Economic Benefits/Pitfalls: ${tip.economicBenefitsPitfalls}
-              </li>
-              <li>
-                Environmental Benefits/Pitfalls: ${tip.environmentalBenefitsPitfalls}
-              </li>
+                <div>Name: ${tip.name}</div>
+              <div>Where Used/Used For: ${tip.whereUsedFor}</div>
+              <div>Economic Benefits/Pitfalls: ${tip.economicBenefitsPitfalls}</div>
+              <div>Environmental Benefits/Pitfalls: ${tip.environmentalBenefitsPitfalls}</div>
               <button class="button--close" >Close Dialog</button>
             </dialog>
-            </ul>
-            <div>
-                <button id="button--${tip.name}">Details</button>
-            </div>
+
+
           </div>
         </div> 
     `
